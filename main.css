@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 120px;
+    color:black;
+}
+
+
+form , input , button{
+    display:block;
+    width: 500px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+button {
+    background-color: rgb(36, 173, 36);
+    color:#fff;
+}
